@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/css1.css">
+<meta charset="utf-8">
+<title>myindex</title>
+<script src="../js/shouye.js"></script><!--JS文件地址-->
+<script type="text/javascript">
+	window.localStorage.setItem("pagenum","0")
+	</script><!--文档内JS文件，也需要加在一级子页，括号里0改为1-->
+</head>
+
+<body bgcolor=#F5F4F4 onLoad="huanying();"><!--背景颜色，onLoad函数需要加在每个页面中-->
+	<div id="biaoti" class="biaoti">
+	<a href="#" onClick="javascript:alert('欢迎来到英雄联盟!');"><h1>英雄去超越，无畏共联盟</h1></a><br>
+	  <!--标题-->
+	  <span id="huanying"><h2>欢迎观看</h2></span>
+    </div><!--标题容器-->
+	<div align="center" id="fengmain">
+		<img src="../images/fengmian1.jpg"><br><!--封面图-->
+</div>
+	<div align="center">
+    <form name="userlogon" action="" method="get"><!--action后跟一级子页地址-->
+	    <fieldset style="width: 550px" >
+		    <legend>个人资料</legend>
+	        <p style="padding-left:25px">
+				      账户：<input type="text" name="username" autofocus required="required"/><br>
+					  密码：<input type="password" name="userpwd" required="required"/>
+		    </p>
+	    </fieldset>  
+		<p class="denglu" align="center">
+			<input type="submit" name="tijiao" value="登录" onClick="return check()"/>&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="reset" name="chongzhi" value="重置"/>
+		</p>
+	</form></div>
+	<div id="yema" align="center">
+		<form name=pageForm action="" method="post">
+			<a href="../index.html"><strong>首页</strong></a>
+			<strong><a href="javascript:window.history.back();">上一页</a>
+			<a href="#" onClick="javascript:window.location.replace(nextpage())">下一页</a></strong>
+			<a href="#" onClick="tuichu();">退出登录</a>
+			转到<select name="page" onChange="javascript:pageFormSubmit()">
+			<option value="fengmian.html">1</option>
+			<option value="">2</option><!--地址写一级子页相对位置-->
+			</select>页
+		</form>
+		<script language="javascript">
+		function pageFormSubmit(){
+			document.location.href=document.pageForm.page.options[
+				document.pageFrom.page.selectedIndex].value;
+		}
+		</script><!--下拉跳页JS文件-->
+	</div><!--页码代码，放到每个子页下方-->
+	<p align="center">版权所有</p><br>
+</body>
+	  
+</html>

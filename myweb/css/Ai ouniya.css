@@ -1,0 +1,68 @@
+@charset "utf-8";
+#header {
+	background-color: #7C9CCC;
+	width: auto;
+	height: 650px;
+	color: #AB4647;
+	line-height: 100px;
+	text-align: center;
+	font-variant: small-caps;
+	text-shadow: 5px 5px 1px #F46B6D;
+	margin-top: 0px;
+	margin:auto;
+	font-style: oblique;
+	background-image:url(../images/Ai%20ouniya.jpg);
+	background-size:100%;
+}
+#navbar {
+	background-color:#DF5D9E;
+	padding: 0px;
+	height: 40px;
+	line-height:40px;
+	text-align:center;
+	width: auto;
+	margin-top:0px;
+}
+#navbar a{
+	width: auto;
+	height: auto;
+	text-align: center;
+	-webkit-transition: all 1s ease-in-out 0s;
+	-o-transition: all 1s ease-in-out 0s;
+	transition: all 1s ease-in-out 0s;
+	color: #FDFBFB;
+}#mainleft {
+	background-color: #F1ABAC;
+	height: 650px;
+	width: 200px;
+	float:left;
+}
+#main {
+	background-color: #FDCCCD;
+	height: 650px;
+	width: 1200px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footer {
+	background-color: #F5CACB;
+	height: 50px;
+	width: auto;
+	line-height: 50px;
+	margin-top: 10px;
+	text-align: center;
+}#mainright {
+	float: right;
+	height: 650px;
+	width: 1000px;
+	
+}
+#footer {
+	background-color: #F5CACB;
+	height: 50px;
+	width: auto;
+	line-height: 50px;
+	margin-top: 10px;
+	text-align: center;
+}

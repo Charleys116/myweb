@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+    color: black;
+    font-size: 30px;
+    font-family: 隶书;
+    font-weight: 400;
+    text-shadow: 1px 2px 1px #463B3B;
+	width:600px;
+}
+h2{
+	padding-left: 190px;
+	color:black;
+	font-size: 24px;
+	font-family:楷体;
+	font-weight: 300;
+	text-decoration: none;
+}
+form{
+	font-family: 宋体;
+	font-size: 18px;
+	font-weight: 500;
+}
+body{
+	color: black;
+	font-family: 宋体;
+	font-size: 16px;
+	letter-spacing: normal;
+	line-height: 2em;
+}
+a{
+    letter-spacing: 1em;
+    font-family: 宋体;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+	width: 200px;
+}
+a link{
+    letter-spacing: 1em;
+    color: blue;
+    font-family: 宋体;
+    display: inline-block;
+	width: 200px;
+}
+a visited{
+    color: fuchsia;
+    font-family: 宋体;
+    display: inline-block;
+	width: 200px;
+}
+a hover{
+    color: blueviolet;
+    font-family: 宋体;
+    font-size: 22px;
+    display: inline-block;
+	width: 200px;
+}
+#fengmian{
+	
+}
+.biaoti{
+	padding-left: 700px;
+	align="center"
+	
+}
